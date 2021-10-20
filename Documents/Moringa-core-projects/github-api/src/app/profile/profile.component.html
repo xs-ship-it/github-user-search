@@ -12,14 +12,12 @@
 	</form>
         <div class="row">
 			<div class="col-md-6">
-             <h2> {{profile.name}}<small>({{profile.login}})</small></h2>
-              <span *ngIf ="profile.company">, works at {{profile.company}}</span>
-              {{profile.location}}
+             
 
     
               <br>
         
-                <img src="{{profile.avatar_url }}" class="rounded-circle" alt="profile photo">
+                <img src="{{profile.avatar_url }}" class="rounded-circle" alt="profile photo"width="300px" >
 				<br>
 				<ul>
                     <li  *ngIf="profile.bio">{{profile.bio}}</li>
@@ -41,8 +39,7 @@
 			   <br>
                <span class=" btn btn-primary" >{{profile.following}} following</span>
 			   <br>
-			   <br>
-               <span class=" btn btn-primary">{{profile.public_gist}} public gist</span>
+		
 			   <br>
 			   <br>
                <span class=" btn btn-warning" >{{profile.public_repos}} Public repos</span> 
@@ -53,7 +50,7 @@
             </div>
 		</div> 
 		<div class="semi-heading">
-		 <h2>Repositories</h2> 
+		 <h1>Repositories</h1> 
         </div>
         <br>
 		<hr>
@@ -62,6 +59,7 @@
          <div  class="repo"*ngFor ="let repo of repos">
              <p>
                  {{repo.name}} <a class="btn btn-sm btn-info" href="{{repo.html_url}}">view</a>
+                 <br>
                  {{repo.description}}
                </p>
         </div>
