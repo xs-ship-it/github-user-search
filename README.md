@@ -1,6 +1,6 @@
 # github-user-search
 # Author
--Felix Nderitu.
+Felix Nderitu.
 # Description
 -this project is a web application that allows the user to search for github users' profile and their repositories
 ## Prerequisites
