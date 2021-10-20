@@ -8,11 +8,11 @@ Basic  knowledge in Typescript,javascript,HTML,CSS and Angular CLI.
 ##### Technologies Used
 - Typescript,Github-API,Javascript,HTML& CSS
 ##### Setup Instructions and Installation
-- Clone this repository to a location in your file system. `git clone https://github.com/xs-ship-it/Another-quotes-test`
-- Open terminal command line then navigate to the root folder of the application. `Another-quotes-test`
+- Clone this repository to a location in your file system. `git clone https://github.com/xs-ship-it/github-user-search`
+- Open terminal command line then navigate to the root folder of the application. github-user-search`
 - Run the ng serve command to open the application on the given localhost port
 ## Live-link
-
+-https://xs-ship-it.github.io/github-user-search/
 ### License
 *MIT*
 Copyright (c) 2021 **Felix Nderitu**
