@@ -10,7 +10,7 @@ Basic  knowledge in Typescript,javascript,HTML,CSS and Angular CLI.
 ##### Setup Instructions and Installation
 - Clone this repository to a location in your file system. `git clone https://github.com/xs-ship-it/github-user-search`
 - Open terminal command line then navigate to the root folder of the application. github-user-search`
-- Run the ng serve command to open the application on the given localhost port
+- Run the ng serve command to open the application on the given localhost
 ## Live-link
 -https://xs-ship-it.github.io/github-user-search/
 ### License
